@@ -108,6 +108,8 @@ body {
 }
 
 .pricing-title-item {
+    display: flex;
+    flex-direction: column;
     width: 426px;
 }
 
@@ -127,13 +129,21 @@ body {
     margin-bottom: 30px;
 }
 
+.pricing-title-item > .text-pricing {
+    flex-grow: 1;
+}
+
 .price-tag {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+
     font-size: 24px;
     line-height: calc(36/24);
     text-align: center;
     color: var(--dark-tekt-color);
-    padding-top: 4px;
-    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 4px;
 
     width: 260px;
     background-color: var(--price-tag-bg);
@@ -145,7 +155,6 @@ body {
     line-height: calc(27/18);
     color: var(--pricing-grey);
 }
-
 
 /*Contact-Us*/
 
