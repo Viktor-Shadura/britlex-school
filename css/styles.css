@@ -88,7 +88,46 @@ body {
 
 /*About-Us*/
 
+.about-global-container {
+    display: flex;
+    justify-content: space-between
+}
 
+.about-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: calc(72/48);
+    color: var(--black-text);
+    margin-bottom: 60px;
+}
+
+.about-text {
+    font-size: 20px;
+    line-height: calc(36/20);
+    width: 652px;
+    margin-bottom: 30px;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-around
+}
+
+.about-number {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: calc(72/48);
+    color: var(--about-dark-grey);
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.about-number-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
 
 /*Pricing*/
 
