@@ -2,7 +2,7 @@
 
 :root {
   /*fonts*/
-  --main-text: 'Poppins', sans-serif;
+  --main-text: "Poppins", sans-serif;
 
   /*text-colors*/
   --paragraph-text-color: #8f95a5;
@@ -13,7 +13,7 @@
   --about-dark-grey: #2a3246;
   --pricing-grey: #546269;
   --accent-text-color: #ffc700;
-  --accent-blue-color:#2196f3;
+  --accent-blue-color: #2196f3;
 
   /*background-colors*/
   --bg-grey: #f5f5f5;
@@ -54,7 +54,7 @@ img {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--paragraph-text-color);
   line-height: calc(24 / 16);
 }
@@ -63,7 +63,7 @@ body {
   padding-top: 90px;
   padding-bottom: 90px;
 
-  /*outline: 2px solid rgb(0, 119, 255);*/
+  outline: 2px solid rgb(0, 119, 255);
 }
 
 .list {
@@ -148,6 +148,52 @@ body {
 
 /*Hero*/
 
+.hero-section {
+  padding-bottom: 90px;
+}
+
+.hero-container {
+  display: flex;
+}
+
+.hero-title {
+  margin-bottom: 40px;
+
+  width: 386px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: calc(80 / 64);
+
+  color: var(--black-text);
+}
+
+.hero-desc {
+  margin-bottom: 60px;
+  margin-right: 144px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: calc(36 / 24);
+
+  color: var(--frame-color);
+}
+
+.hero-btn {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: calc(54 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+
+  width: 426px;
+  height: 100px;
+  left: 131px;
+  top: 628px;
+  background: var(--btn-bg-color);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 /*Skills*/
 
 /*About-Us*/
@@ -187,7 +233,7 @@ body {
 }
 
 .about-number-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   text-align: center;
   margin: 0px;
@@ -264,30 +310,30 @@ body {
 
 /*Contact-Us*/
 .form {
-    padding: 130px 0px;
+  padding: 130px 0px;
 }
 .form__container {
-    display: flex;
+  display: flex;
 }
 .form__meta-container {
-    margin-left: 104px;
-    padding-top: 30px;
-    width: 776px;
+  margin-left: 104px;
+  padding-top: 30px;
+  width: 776px;
 }
 .form__title {
-    margin-bottom: 37px;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: calc(80 / 48);
-    color: var(--black-text); 
+  margin-bottom: 37px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: calc(80 / 48);
+  color: var(--black-text);
 }
 .form__meta {
-    margin-bottom: 52px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: calc(30 / 20);
-    color: var(--frame-color); 
-} 
+  margin-bottom: 52px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  color: var(--frame-color);
+}
 .form__group {
   display: flex;
   position: relative;
@@ -297,7 +343,7 @@ body {
   top: 50%;
   left: 33px;
   transform: translateY(-50%);
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
@@ -305,64 +351,63 @@ body {
   transition: transform 250ms var(--timing-function);
 }
 .form__input {
-    width: 450px;
-    min-height: 80px;
-    padding: 33px;
-    border: 1px solid var(--frame-color);
-    border-radius: 10px;
-    margin-right: 12px;
+  width: 450px;
+  min-height: 80px;
+  padding: 33px;
+  border: 1px solid var(--frame-color);
+  border-radius: 10px;
+  margin-right: 12px;
 }
 .form__input:focus + .form__lable,
 .form__input:not(:placeholder-shown) + .form__lable {
-    transform: translateY(-270%);
-    color: var(--accent-blue-color);
+  transform: translateY(-270%);
+  color: var(--accent-blue-color);
 }
 .form__input:focus,
 .form__input:not(:placeholder-shown) {
-    border-color: var(--accent-blue-color);
+  border-color: var(--accent-blue-color);
 }
-.form__input:focus-visible{
-    outline: none;
+.form__input:focus-visible {
+  outline: none;
 }
 .form__button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 264px;
-    min-height: 80px;
-    border: 1px solid transparent;
-    border-radius: 10px;
-    background-color: var(--btn-bg-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--white-text);
-    cursor: pointer;
-    transition: color 250ms var(--timing-function),
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 264px;
+  min-height: 80px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: var(--btn-bg-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--white-text);
+  cursor: pointer;
+  transition: color 250ms var(--timing-function),
     background-color 250ms var(--timing-function),
     border 250ms var(--timing-function);
 }
 .form__button:hover,
 .form__button:focus {
-    background-color: var(--logo-grey);
-    color: var(--black-text);
-
+  background-color: var(--logo-grey);
+  color: var(--black-text);
 }
 .form__button::before {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: 30px;
-    background-image: url(../images/bulb-icon.png);
-    background-size: contain;
-    opacity: 0;
-    transition: opacity 250ms var(--timing-function);
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  background-image: url(../images/bulb-icon.png);
+  background-size: contain;
+  opacity: 0;
+  transition: opacity 250ms var(--timing-function);
 }
 .form__button:hover::before,
 .form__button:focus::before {
-    opacity: 1;
+  opacity: 1;
 }
 /*Footer*/
