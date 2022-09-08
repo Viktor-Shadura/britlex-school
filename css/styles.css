@@ -376,8 +376,6 @@ body {
     color: var(--black-text);
     text-decoration: none;
     margin-right: auto;
-    margin-top: 63px;
-    margin-bottom: 63px;
 }
 
 .footer-box {
@@ -401,11 +399,11 @@ body {
   line-height: calc(36 / 24);
   display: flex;
   letter-spacing: 0.02em;
-  padding-right: 80px;
+  margin-right: 80px;
 
   color: var(--footer-text-color);
 }
 
 .footer-list .footer-list-item:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
