@@ -151,6 +151,58 @@ body {
 
 /*Skills*/
 
+.skills-title {
+
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: rgba(0, 0, 0, 1);
+
+margin-bottom: 60px;
+
+}
+
+.list-title {
+
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: var(--dark-tekt-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.text-section {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: var(--footer-text-color);
+}
+
+.skills-item {
+  display: block;
+  padding-left: 28px;
+  padding-right: 51px;
+  padding-bottom: 242px;
+  padding-bottom: 513px;
+  width: 426px;
+  border-radius: 10px;
+  background-color: var(--bg-grey);
+  outline: 1px solid black;
+}
+
+.skills-list {
+  display: flex;
+}
+
 /*About-Us*/
 
 .about-global-container {
